@@ -76,7 +76,6 @@ namespace NinjaTrader.NinjaScript.Strategies
 			if (CurrentBars[0] < 1)
 				return;
 
-			 // Set 1
 			if (CrossAbove(SMA1, SMA2, 1))
 			{
 				EnterLong (10);
@@ -87,10 +86,8 @@ namespace NinjaTrader.NinjaScript.Strategies
 			}
 			
 			
-			if (SMA1[0]<SMA1[1])
+			if (CrossBelow(SMA1, SMA2, 1))
 			{
-				Print("time"+Time[0]);
-				Print("Exiting because SMA1 crossed"+SMA1[0]);
 				ExitLong ();
 			}
 			
