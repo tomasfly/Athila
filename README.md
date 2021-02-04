@@ -1,1 +1,1 @@
-# Athila
+Ninja script trading strategies
