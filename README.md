@@ -1,1 +1,1 @@
-Ninja script trading strategies
+# Ninja script trading strategies
